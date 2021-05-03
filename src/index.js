@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const form = document.querySelector(".add-toy-form");
   const option ={
     method :"POST",
-    headers: 
+    headers:
     {
     "Content-Type": "application/json",
     Accept: "application/json"
@@ -19,9 +19,9 @@ document.addEventListener("DOMContentLoaded", () => {
     "likes": 0
     })
   };
-  
+
 form.addEventListener("submit" , ()=>{
-  
+
   fetch("http://localhost:3000/toys" , option)
   .then(response => response.json())
   .then(json =>{});
