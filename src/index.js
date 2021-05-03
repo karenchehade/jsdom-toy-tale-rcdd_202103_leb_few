@@ -47,9 +47,6 @@ form.addEventListener("submit" , ()=>{
     toy-collection.insertAdjacentHTML("beforeend",`<div class='card'><h2>${json.name}</h2><img src=${json.image} class='toy-avatar' /><p>${json.likes} Likes </p><button class='like-btn'>Like <3</button> </div>`)
     fetch("http://localhost:3000/toys" , op)
     .then(response => response.json())
-    .then(json =>{
-
-    });
   });
 
 
