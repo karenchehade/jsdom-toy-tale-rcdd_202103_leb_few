@@ -28,7 +28,7 @@ const op = {
 }
 
 body: JSON.stringify({
-  "likes": <new number>
+  "likes": 4
 })
 }
   fetch("http://localhost:3000/toys/:id" , op)
