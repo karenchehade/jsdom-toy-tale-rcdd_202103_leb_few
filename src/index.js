@@ -21,12 +21,12 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 const op = {
   method:"PATCH",
-  headers: 
+  headers:
 {
   "Content-Type": "application/json",
   Accept: "application/json"
 }
- 
+
 body: JSON.stringify({
   "likes": <new number>
 })
@@ -34,7 +34,7 @@ body: JSON.stringify({
   fetch("http://localhost:3000/toys/:id" , option)
   .then(response => response.json())
   .then(json =>{
-  
+
   });
 
 form.addEventListener("submit" , ()=>{
