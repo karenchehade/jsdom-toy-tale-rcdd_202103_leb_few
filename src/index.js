@@ -31,7 +31,7 @@ body: JSON.stringify({
   "likes": <new number>
 })
 }
-  fetch("http://localhost:3000/toys/:id" , option)
+  fetch("http://localhost:3000/toys/:id" , op)
   .then(response => response.json())
   .then(json =>{
 
