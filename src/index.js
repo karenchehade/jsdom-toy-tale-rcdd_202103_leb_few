@@ -48,7 +48,7 @@ form.addEventListener("submit" , ()=>{
     fetch("http://localhost:3000/toys" , op)
     .then(response => response.json())
     .then(json =>{
-      
+
     });
   });
 
