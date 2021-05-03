@@ -21,7 +21,6 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
 form.addEventListener("submit" , ()=>{
-
   fetch("http://localhost:3000/toys" , option)
   .then(response => response.json())
   .then(json =>{
